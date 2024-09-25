@@ -6,10 +6,11 @@ int n,r,i;
 printf("entrer un nombre:");
     scanf("%d",&n);
 printf("voila le factoriele: \n");
-    for (int i=n;i>=1;i--){
-        r*=i;
+r=1;
+    for (i=n;i>=1;i--){
+        r*=i; 
 
     }
-    printf("%d!= %d  \n",n,i);
+    printf("la factoriele de %d est : %d",n,r);
     return 0;
 }
