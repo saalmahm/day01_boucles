@@ -6,10 +6,9 @@ printf("entrer un nombre:");
     scanf("%d",&n);
 printf("voila la table de multiplication de 1 à 10: \n");
 
-    r=0;
-    for (int i=0;i<=9;i++){
+    for (int i=1;i<=10;i++){
         r=n*i;
-        printf("%d * %d = %d  \n",n,i,r);
+        printf("%d x %d = %d  \n",n,i,r);
     }
     return 0;
 }
